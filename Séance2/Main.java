@@ -19,21 +19,20 @@ public class Main {
         String couleur = scanner.nextLine();
         boolean found = false;
 
-        // Vérification si la couleur est autorisée
         for (String color : v.couleursAutorisees) {
-            if (color.equalsIgnoreCase(couleur)) { // ignore la casse (Rouge = rouge)
+            if (color.equalsIgnoreCase(couleur)) { 
                 v.couleur = couleur;
                 found = true;
                 break;
             }
         }
 
-        if (!found) { // Si la couleur n'est pas trouvée
+        if (!found) { 
             System.out.println("La couleur n'est pas autorisée !");
             System.exit(1);
         }
 
-        v.demarrer(); // Démarrage de la voiture
-        scanner.close(); // Fermeture du scanner
+        v.demarrer(); 
+        scanner.close(); 
     }
 }
