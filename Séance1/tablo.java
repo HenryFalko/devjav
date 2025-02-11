@@ -1,3 +1,4 @@
+package Séance1;
 import java.util.Arrays;
 public class tablo {
     public static void main(String[] args) {

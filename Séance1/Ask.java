@@ -1,3 +1,4 @@
+package Séance1;
 import java.util.Scanner;
 
 public class Ask {
