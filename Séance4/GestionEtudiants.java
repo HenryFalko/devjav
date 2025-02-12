@@ -29,6 +29,11 @@ public class GestionEtudiants {
             System.out.println(etudiant);
             }
     }
+    try {
+        Thread.sleep(2000); 
+    } catch (InterruptedException e) {
+        System.out.println("Une erreur est survenue pendant la pause.");
+    }
     }
     public static void supprimerEtudiant() {
         System.out.println("Entrez le nom de l'étudiant à supprimer : ");
