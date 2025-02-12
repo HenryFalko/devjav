@@ -30,6 +30,19 @@ public class GestionEtudiants {
             }
     }
     }
+    public static void supprimerEtudiant() {
+        System.out.println("Entrez le nom de l'étudiant à supprimer : ");
+        String nom = scanner.nextLine();
+        Iterator<Etudiant> iterator = ListeEtudiants.iterator();
+        while (iterator.hasNext()) {
+            Etudiant etudiant = iterator.next();
+            if (etudiant.getNom().equals(nom)) {
+                iterator.remove();
+                System.out.println("L'étudiant a été supprimé avec succès !");
+                return;
+            }
+        }
+        System.out.println("L'étudiant n'a pas été trouvé !");
     }
 
 

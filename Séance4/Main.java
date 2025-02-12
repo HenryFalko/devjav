@@ -26,6 +26,9 @@ public class Main {
                     GestionEtudiants.afficherEtudiants();
                     break;
                 case 3:
+                    GestionEtudiants.supprimerEtudiant();
+                    break;
+                case 4:
                     System.out.println("Au revoir !");
                     break;
                 default:
