@@ -1,8 +1,5 @@
 package com.monprojet;
-
 import java.util.Scanner;
-import java.sql.ResultSet;
-import java.sql.Statement;
 
 public class App 
 {

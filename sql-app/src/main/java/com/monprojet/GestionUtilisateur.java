@@ -4,7 +4,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class GestionUtilisateur
